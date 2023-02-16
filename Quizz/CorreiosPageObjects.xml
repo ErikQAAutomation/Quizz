@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Page>
+     <Objeto>
+          <nome>Endereco</nome>
+          <identificacaoFisica>endereco</identificacaoFisica>
+          <seletorTipo>name</seletorTipo>
+      </Objeto>
+	  <Objeto>
+          <nome>Pesquisar</nome>
+          <identificacaoFisica>btn_pesquisar</identificacaoFisica>
+          <seletorTipo>name</seletorTipo>
+      </Objeto>
+	   <Objeto>
+          <nome>Dados nao encontrados</nome>
+          <identificacaoFisica>//*[@id='mensagem-resultado-alerta']/h6</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>
+	  <Objeto>
+          <nome>Valida endereco</nome>
+          <identificacaoFisica>//*[@id='resultado-DNEC']/tbody/tr/td[1]</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>	
+	  <Objeto>
+          <nome>Localidade</nome>
+          <identificacaoFisica>#resultado-DNEC > tbody > tr > td:nth-child(3)</identificacaoFisica>
+          <seletorTipo>css</seletorTipo>
+      </Objeto>	
+	  <Objeto>
+          <nome>Nova busca</nome>
+          <identificacaoFisica>btn_nbusca</identificacaoFisica>
+          <seletorTipo>id</seletorTipo>
+      </Objeto>	  	 
+	  <Objeto>
+          <nome>Link correios</nome>
+          <identificacaoFisica>//*[@id='menu']/a[2]</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>	  
+	  <Objeto>
+          <nome>Aceito cookies</nome>
+          <identificacaoFisica>//*[@id='btnCookie']</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>	  
+	  <Objeto>
+          <nome>Codigo rastreamento</nome>
+          <identificacaoFisica>//*[@id='objetos']</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>	  
+	  <Objeto>
+          <nome>Buscar rastreamento</nome>
+          <identificacaoFisica>//*[@id='content']/div[3]/div/div[2]/div[1]/form/div[2]/button</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>	  
+	  <Objeto>
+          <nome>Pesquisar rastreamento</nome>
+          <identificacaoFisica>b-pesquisar</identificacaoFisica>
+          <seletorTipo>id</seletorTipo>
+      </Objeto>	  
+	  <Objeto>
+          <nome>Mensagem captcha</nome>
+          <identificacaoFisica>/html/body/main/div[1]/form/div[2]/div[2]/div[2]/div[3]</identificacaoFisica>
+          <seletorTipo>xpath</seletorTipo>
+      </Objeto>
+</Page>

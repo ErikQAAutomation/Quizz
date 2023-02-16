@@ -1,0 +1,14 @@
+{
+  "nomeLogico1":{
+  "seletor":"id",
+  "acesso":"nome1"
+  },
+  "nomeLogico2":{
+  "seletor":"id",
+  "acesso":"nome2"
+  },
+  "nomeLogico3":{
+  "seletor":"id",
+  "acesso":"nome3"
+  }
+}
